@@ -5,7 +5,7 @@ import LangInfo from "./LangInfo";
 const Main = ({ languages }) => {
 
     const [active, setActive] = useState(null);
-    const activeItem = languages.find((lang) => lang.id === active);
+   
 
     return (
         <main>
@@ -22,7 +22,7 @@ const Main = ({ languages }) => {
                 <div className="w-7xl mt-10 p-4 border border-gray-300 rounded">
                     <LangInfo
                         active={active}
-                        activeItem={activeItem}
+                       
                     />
                 </div>
             </div>
