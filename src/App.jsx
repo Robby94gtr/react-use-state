@@ -1,6 +1,9 @@
 import React from 'react'
+import Header from './components/Header';
+import Main from './components/Main';
 
 const App = () => {
+
 
   const languages = [
     {
@@ -37,6 +40,7 @@ const App = () => {
   return (
     <div className='p-4'>
       <Header />
+      <Main languages={languages} />
     </div>
   )
 }
